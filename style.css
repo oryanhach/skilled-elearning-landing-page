@@ -1,3 +1,31 @@
+:root {
+	/* Colors */
+	--clr-blue-900: #13183f;
+	--clr-blue-600: #666ca3;
+	--clr-pink-600: #f74780;
+	--clr-pink-300: #ffa7c3;
+	--clr-grey: #83869a;
+	--clr-white: #ffffff;
+
+	/* Gradients */
+	--gradient-pink: linear-gradient(180deg, #f02aa6 0%, #ff6f48 100%);
+	--gradient-purple: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+
+	/* Typography */
+	--ff-primary: 'Plus Jakarta Sans', sans-serif;
+
+	--fs-1: 3.5rem;
+	--fs-2: 2.5rem;
+	--fs-3: 2rem;
+	--fs-4: 1.5rem;
+	--fs-5: 1.125rem;
+	--fs-6: 1rem;
+	--fs-7: 1.125rem;
+
+	--lh-120: 1.2;
+	--lh-150: 1.5;
+}
+
 /* CSS RESET */
 
 /* 1. Use a more-intuitive box-sizing model */
