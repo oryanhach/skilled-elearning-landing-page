@@ -249,3 +249,62 @@ main {
 	color: var(--clr-white);
 	font-weight: 600;
 }
+
+@media (min-width: 770px) {
+	main {
+		padding: 0;
+	}
+
+	.skilled__header {
+		padding: 1.65rem 3rem 0 3rem;
+	}
+
+	.hero__title {
+		padding: 0 10rem 0 3rem;
+	}
+
+	.hero__text {
+		padding: 0 23rem 0 3rem;
+	}
+
+	.hero__btn {
+		padding: 0.7rem 1.7rem;
+		font-size: 1.1rem;
+		margin-left: 3rem;
+	}
+
+	.hero__img {
+		height: 50rem;
+		width: 50rem;
+		position: absolute;
+		top: -4rem;
+		left: 24rem;
+	}
+
+	.hero__cards {
+		display: grid;
+		gap: 4rem;
+		margin-top: 14rem;
+		margin-inline: 3rem;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.hero__card-first {
+		height: 100%;
+	}
+
+	.card__text-first {
+		margin-bottom: 8rem;
+	}
+
+	.card__text {
+		font-weight: 500;
+		margin-bottom: 2rem;
+	}
+
+	.skilled__footer {
+		margin: 10rem 0 0 0;
+		justify-content: space-between;
+		padding: 1.2rem 3rem;
+	}
+}
