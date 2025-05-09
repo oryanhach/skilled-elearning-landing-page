@@ -105,3 +105,147 @@ h6 {
 }
 
 /* general styling */
+
+main {
+	padding: 1rem;
+	font-family: var(--ff-primary);
+	overflow: hidden;
+}
+
+.skilled__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.header__logo {
+	height: 1.5rem;
+}
+
+.header__button {
+	font-weight: 600;
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 1.1rem;
+	border-radius: 2rem;
+	background-color: var(--clr-blue-900);
+	color: var(--clr-white);
+}
+
+.skilled__hero {
+	margin-top: 5rem;
+}
+
+.hero__title {
+	font-size: var(--fs-2);
+	color: var(--clr-blue-900);
+	line-height: var(--lh-120);
+	margin-bottom: 1.75rem;
+}
+
+.hero__text {
+	color: var(--clr-grey);
+	font-size: var(--fs-5);
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+
+.hero__btn {
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 1.1rem;
+	border-radius: 2rem;
+	background: var(--gradient-pink);
+	color: var(--clr-white);
+	font-weight: 600;
+}
+
+.hero__wrapper {
+	margin-top: 2.5rem;
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+
+.hero__img {
+	width: 400px;
+	max-width: none;
+	transform: translateX(-1rem);
+}
+
+.hero__cards {
+	display: grid;
+	gap: 4rem;
+	margin-top: 3.5rem;
+}
+
+.hero__card-first {
+	background: var(--gradient-pink);
+	color: var(--clr-white);
+	height: 8rem;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 4px 20px -16px rgba(66, 68, 90, 1);
+}
+
+.card__text-first {
+	font-size: var(--fs-4);
+	font-weight: 700;
+	margin-left: 2rem;
+	line-height: var(--lh-120);
+}
+
+.hero__card {
+	box-shadow: 5px 4px 35px -20px rgba(108, 111, 141, 0.606);
+	padding: 4rem 2rem 2.5rem;
+	border-radius: 1rem;
+	position: relative;
+}
+
+.card__icon {
+	position: absolute;
+	transform: translateY(-90px);
+}
+
+.card__header {
+	color: var(--clr-blue-900);
+	font-size: var(--fs-5);
+	font-weight: 900;
+	margin-bottom: 1.3rem;
+}
+
+.card__text {
+	margin-bottom: 1.3rem;
+	color: var(--clr-grey);
+	font-weight: 700;
+}
+
+.card__btn {
+	color: var(--clr-pink-600);
+	font-weight: 700;
+	font-size: var(--fs-7);
+}
+
+.skilled__footer {
+	background-color: var(--clr-blue-900);
+	margin: 0 -1rem -1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem 1rem;
+	align-items: baseline;
+}
+
+.footer__logo {
+	height: 1.4rem;
+}
+
+.footer__btn {
+	border: none;
+	padding: 0.7rem 1.7rem;
+	font-size: 1.1rem;
+	border-radius: 2rem;
+	background: var(--gradient-purple);
+	color: var(--clr-white);
+	font-weight: 600;
+}
