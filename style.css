@@ -132,6 +132,11 @@ main {
 	color: var(--clr-white);
 }
 
+.header__button:hover {
+	cursor: pointer;
+	background-color: var(--clr-blue-600);
+}
+
 .skilled__hero {
 	margin-top: 5rem;
 }
@@ -158,6 +163,11 @@ main {
 	background: var(--gradient-pink);
 	color: var(--clr-white);
 	font-weight: 600;
+}
+
+.hero__btn:hover {
+	cursor: pointer;
+	background: linear-gradient(180deg, #ec77c1 0%, #ee9c85 100%);
 }
 
 .hero__wrapper {
@@ -227,6 +237,11 @@ main {
 	font-size: var(--fs-7);
 }
 
+.card__btn:hover {
+	cursor: pointer;
+	color: var(--clr-pink-300);
+}
+
 .skilled__footer {
 	background-color: var(--clr-blue-900);
 	margin: 0 -1rem -1rem;
@@ -248,6 +263,11 @@ main {
 	background: var(--gradient-purple);
 	color: var(--clr-white);
 	font-weight: 600;
+}
+
+.footer__btn:hover {
+	cursor: pointer;
+	background: linear-gradient(180deg, #8187f8 0%, #f77fcb 100%);
 }
 
 @media (min-width: 770px) {
