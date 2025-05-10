@@ -312,3 +312,75 @@ main {
 		padding: 1.2rem 3rem;
 	}
 }
+
+@media (min-width: 1440px) {
+	.skilled__header {
+		padding: 1.65rem 10rem 0 10rem;
+	}
+
+	.header__logo {
+		height: 1.6rem;
+	}
+
+	.skilled__hero {
+		margin-top: 12rem;
+	}
+
+	.hero__title {
+		font-size: var(--fs-1);
+		line-height: var(--lh-120);
+		margin-bottom: 1.15rem;
+		padding: 0 50rem 0 10rem;
+	}
+
+	.hero__text {
+		padding: 0 52rem 0 10rem;
+	}
+
+	.hero__img {
+		height: 60rem;
+		width: 60rem;
+		position: absolute;
+		top: -48rem;
+		left: 51rem;
+	}
+
+	.hero__btn {
+		padding: 0.7rem 1.7rem;
+		font-size: 1.1rem;
+		margin-left: 10rem;
+	}
+
+	.hero__cards {
+		gap: 1.5rem;
+		row-gap: 5rem;
+		margin-top: 14rem;
+		margin-inline: 10rem;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.hero__card {
+		padding: 4rem 3rem 2rem 2rem;
+		height: 322px;
+	}
+
+	.card__text-first {
+		font-size: var(--fs-3);
+		padding-right: 2rem;
+		padding-top: 2.4rem;
+	}
+
+	.card__btn {
+		position: absolute;
+		bottom: 0;
+		margin: 2rem 0;
+	}
+
+	.skilled__footer {
+		padding: 1.2rem 10rem;
+	}
+
+	.footer__logo {
+		height: 1.5rem;
+	}
+}
